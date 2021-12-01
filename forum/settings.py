@@ -55,7 +55,7 @@ ROOT_URLCONF = 'forum.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ['pagetmpl'],      # 將頁面範本集中處理
+        'DIRS': ['Tako'],      # 將頁面範本集中處理
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
